@@ -5,7 +5,7 @@
     android:id="@+id/sfs"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
+    android:background="@color/black"
     >
 
     <View
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="12dp"
-        android:background="#000000"
+        android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/backButton"
         tools:layout_editor_absoluteX="-41dp" />
 
@@ -25,9 +25,9 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/poppins"
-        android:text="Measure Date"
-        android:textColor="#000000"
-        android:textSize="14sp"
+        android:text="Date"
+        android:textColor="#FFFF00"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/date"
         app:layout_constraintEnd_toStartOf="@+id/textView16"
         app:layout_constraintHorizontal_bias="0.0"
@@ -41,12 +41,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
-        android:text="Measure TIme"
-        android:textColor="#000000"
-        android:textSize="14sp"
+        android:text="Time"
+        android:textColor="#FFFF00"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/dfsdfds"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintHorizontal_bias="0.845"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/dfsdfds"
         app:layout_constraintVertical_bias="0.0" />
@@ -153,7 +153,7 @@
 
     <Button
         android:id="@+id/saveButton"
-        android:layout_width="330dp"
+        android:layout_width="100dp"
         android:layout_height="48dp"
         android:background="@drawable/save_button"
         android:fontFamily="@font/poppins_semibold"
@@ -162,10 +162,10 @@
         android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/notes"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.93"
         app:layout_constraintStart_toStartOf="@+id/notes"
         app:layout_constraintTop_toBottomOf="@+id/notes"
-        app:layout_constraintVertical_bias="0.456" />
+        app:layout_constraintVertical_bias="0.52" />
 
     <EditText
         android:id="@+id/diastolic"
@@ -193,7 +193,7 @@
         android:layout_marginLeft="20dp"
         android:fontFamily="@font/poppins"
         android:text="Record"
-        android:textColor="#A701F5"
+        android:textColor="#fff"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView11"
         app:layout_constraintEnd_toStartOf="@+id/tickButton"
@@ -225,8 +225,8 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:fontFamily="@font/poppins"
-        android:text="Create"
-        android:textColor="#000000"
+        android:text="Add"
+        android:textColor="	#FFFF00"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/backButton"
         app:layout_constraintEnd_toStartOf="@+id/textView12"
@@ -274,19 +274,19 @@
 
     <EditText
         android:id="@+id/time"
-        android:backgroundTint="@color/white"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:background="@drawable/round_corner_edit_text"
+        android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="Time"
         android:inputType="textPersonName"
         android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/systolic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.301" />
+        app:layout_constraintVertical_bias="0.234" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

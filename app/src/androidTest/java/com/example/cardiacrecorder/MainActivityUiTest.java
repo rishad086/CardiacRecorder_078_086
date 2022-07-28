@@ -32,14 +32,14 @@ public class MainActivityUiTest {
     @Rule
     public ActivityScenarioRule<MainActivity> activityRule =
             new ActivityScenarioRule<MainActivity>(MainActivity.class);
-    @Test
-    public void testCheckPageAndPageTitle()
-    {
-        onView(withId(R.id.main_activity)).check(matches(isDisplayed()));
-        onView(withText("Cardiac")).check(matches(isDisplayed()));
-        onView(withText("Recorder")).check(matches(isDisplayed()));
-
-    }
+//    @Test
+//    public void testCheckPageAndPageTitle()
+//    {
+//        onView(withId(R.id.main_activity)).check(matches(isDisplayed()));
+//        onView(withText("Cardiac")).check(matches(isDisplayed()));
+//        onView(withText("Recorder")).check(matches(isDisplayed()));
+//
+//    }
     @Test
     public void testCheckTabLayoutAndViewPagerDisplayed()
     {
