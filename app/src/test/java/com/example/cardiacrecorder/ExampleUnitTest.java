@@ -1,4 +1,4 @@
-package com.example.cardiacrec_078_086;
+package com.example.cardiacrecorder;
 
 import org.junit.Test;
 
