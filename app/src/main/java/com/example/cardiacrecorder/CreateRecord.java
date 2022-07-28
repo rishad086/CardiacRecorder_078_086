@@ -104,9 +104,9 @@ public class CreateRecord extends AppCompatActivity {
                     int y = Integer.parseInt(diastol);
 
                     if (x > 180 || y > 120) {
-                        blood_pressure_status += "Hypertensive Crisis";
+                        blood_pressure_status += "Grade2 Hyper";
                     } else if (x > 140 || y > 90) {
-                        blood_pressure_status += "Hypertension_1";
+                        blood_pressure_status += "Grade1 Hyper";
                     } else if (x >= 130 && x <= 139 || y >= 80 && y <= 89) {
                         blood_pressure_status += "Hypertension_2";
                     } else if ((x >= 120 && x <= 129) && (y >= 60 && y <= 80)) {
@@ -177,11 +177,11 @@ public class CreateRecord extends AppCompatActivity {
                     int y = Integer.parseInt(diastol);
 
                     if (x > 180 || y > 120) {
-                        blood_pressure_status += "Hypertensive Crisis";
+                        blood_pressure_status += "Grade2 Hyper";
                     } else if (x > 140 || y > 90) {
-                        blood_pressure_status += "Hypertension_1";
+                        blood_pressure_status += "Grade1 Hyper";
                     } else if (x >= 130 && x <= 139 || y >= 80 && y <= 89) {
-                        blood_pressure_status += "Hypertension_2";
+                        blood_pressure_status += "Hypertension";
                     } else if ((x >= 120 && x <= 129) && (y >= 60 && y <= 80)) {
                         blood_pressure_status += "Elevated";
                     } else if ((x >= 90 && x <= 120 || y >= 60 && y <= 80)) {
