@@ -25,11 +25,8 @@ public class SplashScreenActivityActivityUiTest {
     public void testSplashScreenText()
     {
         onView(withText("Cardiac")).check(matches(isDisplayed()));
-        onView(withText("Recorder")).check(matches(isDisplayed()));
+        onView(withText("Measurement")).check(matches(isDisplayed()));
         onView(withId(R.id.imageView)).check(matches(isDisplayed()));
-        onView(withText("Powered by")).check(matches(isDisplayed()));
-        onView(withText("KUET CSE")).check(matches(isDisplayed()));
-
     }
 
 }
